@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python3
 """Command Line Task Manager"""
 # an object oriented task manager application that 
 # user can enter tasks, save them to a file, and retrieve
@@ -11,12 +11,9 @@
     # 3. A Task object should store the date they were created and completed
     # 4. allows for different types of tasks: a task with no due date and a task with a due date.
 
-
-#!/usr/bin/env python3
 import argparse
 import pickle
 import datetime #Module7 Problem4
-
 
 class Task:
   """Representation of a task
